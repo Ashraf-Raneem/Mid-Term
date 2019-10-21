@@ -19,8 +19,6 @@ $("#border-width").change(function(){
 
 
 $("#submitBtn").click(function(){
-    var borderWidth = $("#border-Width").val()
-
     $("#letter-container").css("border-radius","2px");
 })
 
@@ -30,25 +28,25 @@ $("#background").click(function(){
         if(this.id="#violet"){
             $("#letter-container").css("background","violet");
         }
-        else if(this.id="#indigo"){
+        if(this.id="#indigo"){
             $("#letter-container").css("background","indigo")
         }
-        else if(this.id="#blue"){
+        if(this.id="#blue"){
             $("#letter-container").css("background", "blue")
         }
-        else if(this.id="#green"){
+        if(this.id="#green"){
             $("#letter-container").css("background", "green")
         }
-        else if(this.id="#yellow"){
+        if(this.id="#yellow"){
             $("#letter-container").css("background","yellow")
         }
         else if(this.id="#orange"){
             $("#letter-container").css("background","orange")
         }
-        else if(this.id="#red"){
+        if(this.id="#red"){
             $("#letter-container").css("background","red")
         }
-        else if(this.id="#white"){
+        if(this.id="#white"){
             $("#letter-container").css("background","white")
         }
     })
@@ -60,25 +58,25 @@ $("#letter1-color").click(function(){
         if(this.id="#violet"){
             $("#letter-container").css("background","violet");
         }
-        else if(this.id="#indigo"){
+        if(this.id="#indigo"){
             $("#letter-container").css("background","indigo")
         }
-        else if(this.id="#blue"){
+        if(this.id="#blue"){
             $("#letter-container").css("background", "blue")
         }
-        else if(this.id="#green"){
+        if(this.id="#green"){
             $("#letter-container").css("background", "green")
         }
-        else if(this.id="#yellow"){
+        if(this.id="#yellow"){
             $("#letter-container").css("background","yellow")
         }
-        else if(this.id="#orange"){
+        if(this.id="#orange"){
             $("#letter-container").css("background","orange")
         }
         if(this.id="#red"){
             $("#letter-container").css("background","red")
         }
-        else if(this.id="#white"){
+        if(this.id="#white"){
             $("#letter-container").css("background","white")
         }
     })
@@ -89,25 +87,25 @@ $("#letter2-color").click(function(){
         if(this.id="#violet"){
             $("#letter-container").css("background","violet");
         }
-        else if(this.id="#indigo"){
+        if(this.id="#indigo"){
             $("#letter-container").css("background","indigo")
         }
-        else if(this.id="#blue"){
+        if(this.id="#blue"){
             $("#letter-container").css("background", "blue")
         }
         else if(this.id="#green"){
             $("#letter-container").css("background", "green")
         }
-        else if(this.id="#yellow"){
+        if(this.id="#yellow"){
             $("#letter-container").css("background","yellow")
         }
-        else if(this.id="#orange"){
+        if(this.id="#orange"){
             $("#letter-container").css("background","orange")
         }
-        else if(this.id="#red"){
+        if(this.id="#red"){
             $("#letter-container").css("background","red")
         }
-        else if(this.id="#white"){
+        if(this.id="#white"){
             $("#letter-container").css("background","white")
         }
     })
@@ -118,25 +116,25 @@ $("#border").click(function(){
         if(this.id="#violet"){
             $("#letter-container").css("border-color","violet");
         }
-        else if(this.id="#indigo"){
+        if(this.id="#indigo"){
             $("#letter-container").css("border-color","indigo")
         }
-        else if(this.id="#blue"){
+        if(this.id="#blue"){
             $("#letter-container").css("border-color", "blue")
         }
-        else if(this.id="#green"){
+        if(this.id="#green"){
             $("#letter-container").css("border-color", "green")
         }
-        else if(this.id="#yellow"){
+        if(this.id="#yellow"){
             $("#letter-container").css("border-color","yellow")
         }
-        else if(this.id="#orange"){
+        if(this.id="#orange"){
             $("#letter-container").css("border-color","orange")
         }
-        else if(this.id="#red"){
+        if(this.id="#red"){
             $("#letter-container").css("border-color","red")
         }
-        else if(this.id="#white"){
+        if(this.id="#white"){
             $("#letter-container").css("border-color","white")
         }
     })
